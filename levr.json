@@ -1,0 +1,107 @@
+{
+  "version": "2.0",
+  "schemaVersion": "2.1",
+  "siteId": "bkk983vx",
+  "name": "Static-html-seo.com",
+  "description": "A site teaching users how to optimize SEO on a static HTML website. 2500 words.",
+  "siteType": "one-page",
+  "colorScheme": "sage",
+  "font": "Inter",
+  "tags": [
+    "seo",
+    "technology"
+  ],
+  "tools": [],
+  "credentialSetId": "",
+  "model": "gemini-2.5-flash",
+  "customHtml": false,
+  "createdAt": 1767692238338,
+  "updatedAt": 1767692238338,
+  "buildMetadata": {
+    "levrVersion": "0.5.6",
+    "templateVersion": "2.0.0",
+    "templateType": "site",
+    "promptVersions": {
+      "html": "2.0.0",
+      "tags": "2.0.0"
+    },
+    "workflowVersions": {
+      "deploy": "1.2.0"
+    },
+    "buildTimestamp": 1767692238338,
+    "buildId": "bkk983vx",
+    "model": "gemini-2.5-flash",
+    "modelProvider": "gemini",
+    "modelInfo": {
+      "name": "gemini-2.5-flash",
+      "provider": "gemini",
+      "family": "gemini-2.5",
+      "version": "2.5",
+      "variant": "flash"
+    }
+  },
+  "source": {
+    "github": {
+      "owner": "xndr-tech",
+      "repo": "static-html-seo-com-bkk983vx",
+      "branch": "main",
+      "url": "https://github.com/xndr-tech/static-html-seo-com-bkk983vx"
+    },
+    "cloudflare": {
+      "accountId": "b6af5ded35131641c4ebe125bbbf0250",
+      "workerName": "static-html-seo-com-bkk983vx",
+      "subdomain": "",
+      "previewUrl": ""
+    },
+    "credentialSetId": ""
+  },
+  "buildHistory": [
+    {
+      "buildId": "bkk983vx",
+      "timestamp": 1767692238338,
+      "type": "initial",
+      "model": "gemini-2.5-flash",
+      "levrVersion": "0.5.6",
+      "success": true
+    }
+  ],
+  "wranglerVersion": "2.0.0",
+  "filesVersion": "1.1.0",
+  "workflows": {
+    "version": "1.0.0",
+    "levrVersion": "0.5.6",
+    "modules": {
+      "deploy": {
+        "enabled": true,
+        "version": "1.2.0",
+        "file": "deploy.yml"
+      },
+      "preview": {
+        "enabled": true,
+        "version": "1.2.0",
+        "file": "preview.yml"
+      },
+      "qa": {
+        "enabled": true,
+        "version": "1.1.0",
+        "file": "qa.yml"
+      },
+      "seo": {
+        "enabled": false,
+        "version": "1.1.0",
+        "file": "seo.yml"
+      },
+      "lighthouse": {
+        "enabled": false,
+        "version": "1.1.0",
+        "file": "lighthouse.yml"
+      },
+      "security": {
+        "enabled": false,
+        "version": "1.0.0",
+        "file": "security.yml"
+      }
+    },
+    "generatedAt": 1767692238338
+  }
+}
